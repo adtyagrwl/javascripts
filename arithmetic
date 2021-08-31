@@ -1,0 +1,38 @@
+import java.util.Scanner;
+/**
+ * Write a description of class Arithmetic here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public class Arithmetic
+{
+    public static void main(String args[])
+    {
+        Scanner obj =new Scanner(System.in);
+        System.out.println(" Welcome to Math Calculator!" );
+        System.out.println(" Enter Variable a: ");
+        int a = obj.nextInt();
+        System.out.println(" Enter Variable b: ");
+        int b = obj.nextInt();
+        {
+        var x = a+b;
+        var y = a-b;
+        var z = a*b;
+        var d = a/b;
+        var f = ++a;
+        var g = ++b;
+        var h = --a;
+        var i = --b;
+        
+        System.out.println("a+b=" + x);
+        System.out.println("a-b=" + y);
+        System.out.println("a*b=" + z);
+        System.out.println("a/b=" + d);
+        System.out.println("a+1=" + f);
+        System.out.println("b+1=" + g);
+        System.out.println("a-1=" + h);
+        System.out.println("b-1=" + i);
+    }
+}
+}
